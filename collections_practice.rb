@@ -42,6 +42,6 @@ end
 
 def find_a(array)
   
-  array.select {|element| element.first.downcase == "a"}
+  array.select {|element| element.first == "a"}
   
 end

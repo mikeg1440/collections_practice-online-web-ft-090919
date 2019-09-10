@@ -35,6 +35,6 @@ end
 
 def kesha_maker(array)
   
-  array.map {|element| elem
+  array.map {|element| element[2] = "$" }
   
 end

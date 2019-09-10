@@ -54,6 +54,6 @@ end
 
 def add_s(array)
   
-  array.each
+  array.each_with_index {|elem, index| index != 1 ? elem << "s" : next }
   
 end

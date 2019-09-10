@@ -35,4 +35,6 @@ end
 
 def kesha_maker(array)
   
+  array.map {|element| 
+  
 end

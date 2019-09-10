@@ -39,3 +39,9 @@ def kesha_maker(array)
   
   array
 end
+
+def find_a(array)
+  
+  array.select {|element| element.first.downcase == "a"}
+  
+end
